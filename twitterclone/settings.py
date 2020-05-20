@@ -25,7 +25,7 @@ SECRET_KEY = 'yo!z6!-%vuiovxm)xok#htixi)ief^0e&!7e_2l3)@*8(4_u9j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'twitterclone.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR),"templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
