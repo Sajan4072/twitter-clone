@@ -12,4 +12,8 @@ A minimal clone of twitter.
 `pipenv sync --dev   `
 
 
+## twittwer-clone
+![](t.PNG)
+
+
 
